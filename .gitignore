@@ -121,3 +121,11 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 course/data/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Jupyter Notebook output
+**/*-checkpoint.ipynb
+**/*-output.ipynb
+**/*-output.html
