@@ -1,15 +1,19 @@
-# 动手学深度学习（Dive into Deep Learning，D2L.ai）
-
-[第二版：zh.D2L.ai](https://zh.d2l.ai)  | [第一版：zh-v1.D2L.ai](https://zh-v1.d2l.ai/) |  安装和使用书中源代码： [第二版](https://zh.d2l.ai/chapter_installation/index.html) [第一版](https://zh-v1.d2l.ai/chapter_prerequisite/install.html)
-
+# 零基础动手学深度学习（Dive into Deep Learning，D2L.ai）
 **Note**
 
-> 为了使用最新的库代码，参考[指引](SETUP.md)安装
+- 使用最新的库( torch 2.4.1 ) 
+- 本地( visual stuido code Jupyter 环境下)运行
+- 安装参考[指引](SETUP.md)
 
 特点：
 1. 交互性：用户可以在`Jupyter Notebook`文档中直接运行代码单元，查看即时输出。这种交互性帮助用户可以逐步理解和实验深度学习算法，降低学习门槛。
 2. 可视化：用户可以实时查看数据和模型的表现。帮助理解复杂的深度学习概念和模型训练过程。
 3. 综合性：文件包含代码、文本、数学公式和可视化内容，全面的学习资源方便学习和实践深度学习。
+
+**Note**
+> 以下为原稿说明
+
+[第二版：zh.D2L.ai](https://zh.d2l.ai)  | [第一版：zh-v1.D2L.ai](https://zh-v1.d2l.ai/) |  安装和使用书中源代码： [第二版](https://zh.d2l.ai/chapter_installation/index.html) [第一版](https://zh-v1.d2l.ai/chapter_prerequisite/install.html)
 
 <h5 align="center"><i>理解深度学习的最佳方法是学以致用。</i></h5>
 
