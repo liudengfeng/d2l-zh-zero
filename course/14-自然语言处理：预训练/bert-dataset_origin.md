@@ -1,5 +1,5 @@
 # The Dataset for Pretraining BERT
-:label:`sec_bert-dataset`
+14.9
 
 To pretrain the BERT model as implemented in :numref:`sec_bert`,
 we need to generate the dataset in the ideal format to facilitate
