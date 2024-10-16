@@ -8,7 +8,7 @@ git clone https://github.com/liudengfeng/d2l-zh-zero
 
 ## 配置环境
 
-<img width="auto"  src="images/动画.gif">
+<img width="auto"  src="images/python.gif">
 
 + [安装 `python`](https://www.python.org/downloads/)
     <video controls> <source src="videos/python.mp4" type="video/mp4"> 您的浏览器不支持 HTML5 视频标签。 </video>
