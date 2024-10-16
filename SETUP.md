@@ -1,40 +1,40 @@
 # 从零开始，搭建本地学习环境
 
-## 下载代码
-
-```cmd
-git clone https://github.com/liudengfeng/d2l-zh-zero
-```
-
 ## 配置环境
 
-+ [安装 `python`](https://www.python.org/downloads/)
-    <details>
-        <summary>显示动图</summary>
-        <ul>
-            <img src="./images/install-python-3.12-win.gif" alt="安装 Python">
-        </ul>
-    </details>
+<h4 align="center"><a href="https://www.python.org/downloads/" target="_blank">安装 Python</a></h4>
+<p align="center">
+  <img src="./images/install-python-3.12-win.gif" alt="安装 Python">
+</p>
 
-+ [安装 `visual studio code`](https://code.visualstudio.com/Download)
-    <details>
-        <summary>显示动图</summary>
-        <ul>
-            <img src="./images/install-code-winx64.gif" alt="安装 Python">
-        </ul>
-    </details>
+<h4 align="center"><a href="https://code.visualstudio.com/Download" target="_blank">安装 Code Editor</a></h4>
+<p align="center">
+  <img src="./images/install-code-winx64.gif" alt="安装 Code editor">
+</p>
 
-+ [安装code扩展`](https://code.visualstudio.com/)
+<h4 align="center">安装 Code 扩展</h4>
+<p align="center">
+  <img src="./images/extensions.gif" alt="安装 Code 扩展">
+</p>
 
+<h4 align="center">配置运行环境-1</h4>
+<p align="center">
+  <img src="./images/env-1.gif" alt="配置运行环境-1">
+</p>
 
-+ [配置环境]
-    <details>
-        <summary>在code中配置python环境</summary>
-        <ul>
-            <video controls> <source src="videos/env.mp4" type="video/mp4"> 您的浏览器不支持 HTML5 视频标签。 </video>
-        </ul>
-    </details>
+<h4 align="center">配置运行环境-2</h4>
+<p align="center">
+  <img src="./images/env-2.gif" alt="配置运行环境-2">
+</p>
 
-## 测试运行
+## 运行
 
-<video controls> <source src="./videos/python.mp4" type="video/mp4"> 您的浏览器不支持 HTML5 视频标签。 </video>
+<h4 align="center"><a href="https://github.com/liudengfeng/d2l-zh-zero" target="_blank">下载代码</a></h4>
+<p align="center">
+  <img src="./images/source-code.gif" alt="下载代码">
+</p>
+
+<h4 align="center"><a href="https://github.com/liudengfeng/d2l-zh-zero" target="_blank">下载代码</a></h4>
+<p align="center">
+  <img src="./images/source-code.gif" alt="下载代码">
+</p>
