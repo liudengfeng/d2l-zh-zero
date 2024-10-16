@@ -1,9 +1,12 @@
-# 零基础动手学深度学习（Dive into Deep Learning，D2L.ai）
-**Note**
+# 零基础动手学深度学习
 
-- 使用最新的库( torch 2.4.1 ) 
-- 本地( visual stuido code Jupyter 环境下)运行
-- 安装参考[指引](SETUP.md)
+## 致谢与申明
+
+本开源项目的代码和内容主要来源于 [D2L.ai](https://github.com/d2l-ai/d2l-zh) 项目，遵循其开源许可协议。我们在此对原作者表示诚挚的感谢，并希望更多的人能够从中受益。
+
+本项目旨在便于在本地部署（Visual Studio Code Jupyter 环境下）运行，并确保兼容最新的库版本（如 torch 2.4.1）。由于源代码中限定的库版本较旧，我们对其进行了更新，以便更好地理解和应用深度学习技术。
+
+请参考[安装指引](SETUP.md)进行环境配置。
 
 特点：
 1. 交互性：用户可以在`Jupyter Notebook`文档中直接运行代码单元，查看即时输出。这种交互性帮助用户可以逐步理解和实验深度学习算法，降低学习门槛。
@@ -12,6 +15,8 @@
 
 **Note**
 > 以下为原稿说明
+
+动手学深度学习（Dive into Deep Learning，D2L.ai）
 
 [第二版：zh.D2L.ai](https://zh.d2l.ai)  | [第一版：zh-v1.D2L.ai](https://zh-v1.d2l.ai/) |  安装和使用书中源代码： [第二版](https://zh.d2l.ai/chapter_installation/index.html) [第一版](https://zh-v1.d2l.ai/chapter_prerequisite/install.html)
 
