@@ -29,12 +29,9 @@
 
 ## 运行
 
-<h4 align="center"><a href="https://github.com/liudengfeng/d2l-zh-zero" target="_blank">下载代码</a></h4>
+<h4 align="center">运行</h4>
 <p align="center">
-  <img src="./images/source-code.gif" alt="下载代码">
+  <img src="./images/from-start.gif" alt="运行">
 </p>
 
-<h4 align="center"><a href="https://github.com/liudengfeng/d2l-zh-zero" target="_blank">下载代码</a></h4>
-<p align="center">
-  <img src="./images/source-code.gif" alt="下载代码">
-</p>
+[下载代码](https://github.com/liudengfeng/d2l-zh-zero)
