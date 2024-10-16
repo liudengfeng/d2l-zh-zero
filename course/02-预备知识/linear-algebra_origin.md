@@ -127,7 +127,7 @@ orientation of vectors, so does this book.
 In math, a vector $\mathbf{x}$ can be written as
 
 $$\mathbf{x} =\begin{bmatrix}x_{1}  \\x_{2}  \\ \vdots  \\x_{n}\end{bmatrix},$$
-:eqlabel:`eq_vec_def`
+2.3.1
 
 
 where $x_1, \ldots, x_n$ are elements of the vector.
@@ -220,7 +220,7 @@ Visually, we can illustrate any matrix $\mathbf{A} \in \mathbb{R}^{m \times n}$ 
 where each element $a_{ij}$ belongs to the $i^{\mathrm{th}}$ row and $j^{\mathrm{th}}$ column:
 
 $$\mathbf{A}=\begin{bmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \\ \end{bmatrix}.$$
-:eqlabel:`eq_matrix_def`
+2.3.2
 
 
 For any $\mathbf{A} \in \mathbb{R}^{m \times n}$, the shape of $\mathbf{A}$
@@ -249,10 +249,10 @@ A = tf.reshape(tf.range(20), (5, 4))
 A
 ```
 
-We can access the scalar element $a_{ij}$ of a matrix $\mathbf{A}$ in :eqref:`eq_matrix_def`
+We can access the scalar element $a_{ij}$ of a matrix $\mathbf{A}$ in （2.3.2）
 by specifying the indices for the row ($i$) and column ($j$),
 such as $[\mathbf{A}]_{ij}$.
-When the scalar elements of a matrix $\mathbf{A}$, such as in :eqref:`eq_matrix_def`, are not given,
+When the scalar elements of a matrix $\mathbf{A}$, such as in （2.3.2）, are not given,
 we may simply use the lower-case letter of the matrix $\mathbf{A}$ with the index subscript, $a_{ij}$,
 to refer to $[\mathbf{A}]_{ij}$.
 To keep notation simple, commas are inserted to separate indices only when necessary,
@@ -264,7 +264,7 @@ When we exchange a matrix's rows and columns,
 the result is called the *transpose* of the matrix.
 Formally, we signify a matrix $\mathbf{A}$'s transpose by $\mathbf{A}^\top$
 and if $\mathbf{B} = \mathbf{A}^\top$, then $b_{ij} = a_{ji}$ for any $i$ and $j$.
-Thus, the transpose of $\mathbf{A}$ in :eqref:`eq_matrix_def` is
+Thus, the transpose of $\mathbf{A}$ in （2.3.2） is
 a $n \times m$ matrix:
 
 $$
@@ -418,7 +418,7 @@ A, A + B
 Specifically,
 [**elementwise multiplication of two matrices is called their *Hadamard product***]
 (math notation $\odot$).
-Consider matrix $\mathbf{B} \in \mathbb{R}^{m \times n}$ whose element of row $i$ and column $j$ is $b_{ij}$. The Hadamard product of matrices $\mathbf{A}$ (defined in :eqref:`eq_matrix_def`) and $\mathbf{B}$
+Consider matrix $\mathbf{B} \in \mathbb{R}^{m \times n}$ whose element of row $i$ and column $j$ is $b_{ij}$. The Hadamard product of matrices $\mathbf{A}$ (defined in （2.3.2）) and $\mathbf{B}$
 
 $$
 \mathbf{A} \odot \mathbf{B} =
@@ -731,7 +731,7 @@ Now that we know how to calculate dot products,
 we can begin to understand *matrix-vector products*.
 Recall the matrix $\mathbf{A} \in \mathbb{R}^{m \times n}$
 and the vector $\mathbf{x} \in \mathbb{R}^n$
-defined and visualized in :eqref:`eq_matrix_def` and :eqref:`eq_vec_def` respectively.
+defined and visualized in （2.3.2） and （2.3.1） respectively.
 Let us start off by visualizing the matrix $\mathbf{A}$ in terms of its row vectors
 
 $$\mathbf{A}=

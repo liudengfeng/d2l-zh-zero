@@ -110,7 +110,7 @@ x
 在数学中，向量$\mathbf{x}$可以写为：
 
 $$\mathbf{x} =\begin{bmatrix}x_{1}  \\x_{2}  \\ \vdots  \\x_{n}\end{bmatrix},$$
-:eqlabel:`eq_vec_def`
+2.3.1
 
 其中$x_1,\ldots,x_n$是向量的元素。在代码中，我们(**通过张量的索引来访问任一元素**)。
 
@@ -203,7 +203,7 @@ x.shape
 其中每个元素$a_{ij}$属于第$i$行第$j$列：
 
 $$\mathbf{A}=\begin{bmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \\ \end{bmatrix}.$$
-:eqlabel:`eq_matrix_def`
+2.3.2
 
 对于任意$\mathbf{A} \in \mathbb{R}^{m \times n}$，
 $\mathbf{A}$的形状是（$m$,$n$）或$m \times n$。
@@ -238,7 +238,7 @@ A
 
 我们可以通过行索引（$i$）和列索引（$j$）来访问矩阵中的标量元素$a_{ij}$，
 例如$[\mathbf{A}]_{ij}$。
-如果没有给出矩阵$\mathbf{A}$的标量元素，如在 :eqref:`eq_matrix_def`那样，
+如果没有给出矩阵$\mathbf{A}$的标量元素，如在 （2.3.2）那样，
 我们可以简单地使用矩阵$\mathbf{A}$的小写字母索引下标$a_{ij}$
 来引用$[\mathbf{A}]_{ij}$。
 为了表示起来简单，只有在必要时才会将逗号插入到单独的索引中，
@@ -247,7 +247,7 @@ A
 当我们交换矩阵的行和列时，结果称为矩阵的*转置*（transpose）。
 通常用$\mathbf{a}^\top$来表示矩阵的转置，如果$\mathbf{B}=\mathbf{A}^\top$，
 则对于任意$i$和$j$，都有$b_{ij}=a_{ji}$。
-因此，在 :eqref:`eq_matrix_def`中的转置是一个形状为$n \times m$的矩阵：
+因此，在 （2.3.2）中的转置是一个形状为$n \times m$的矩阵：
 
 $$
 \mathbf{A}^\top =
@@ -409,7 +409,7 @@ A, A + B
 具体而言，[**两个矩阵的按元素乘法称为*Hadamard积*（Hadamard product）（数学符号$\odot$）**]。
 对于矩阵$\mathbf{B} \in \mathbb{R}^{m \times n}$，
 其中第$i$行和第$j$列的元素是$b_{ij}$。
-矩阵$\mathbf{A}$（在 :eqref:`eq_matrix_def`中定义）和$\mathbf{B}$的Hadamard积为：
+矩阵$\mathbf{A}$（在 （2.3.2）中定义）和$\mathbf{B}$的Hadamard积为：
 $$
 \mathbf{A} \odot \mathbf{B} =
 \begin{bmatrix}
@@ -781,7 +781,7 @@ $\mathbf{x}$中的值根据权重$\mathbf{w}$的加权和，
 ## 矩阵-向量积
 
 现在我们知道如何计算点积，可以开始理解*矩阵-向量积*（matrix-vector product）。
-回顾分别在 :eqref:`eq_matrix_def`和 :eqref:`eq_vec_def`中定义的矩阵$\mathbf{A} \in \mathbb{R}^{m \times n}$和向量$\mathbf{x} \in \mathbb{R}^n$。
+回顾分别在 （2.3.2）和 （2.3.1）中定义的矩阵$\mathbf{A} \in \mathbb{R}^{m \times n}$和向量$\mathbf{x} \in \mathbb{R}^n$。
 让我们将矩阵$\mathbf{A}$用它的行向量表示：
 
 $$\mathbf{A}=
